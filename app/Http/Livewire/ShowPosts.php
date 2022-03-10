@@ -11,6 +11,9 @@ class ShowPosts extends Component
     public $search;
     public $sort='id'; 
     public $direction='desc';
+
+    //las varibles del  arregloglo correspondes a el evento que se a emetido y el metodo que queremos que se ejecute
+    protected $listeners = ['render' =>'render'];
     use WithPagination;
     private $pagination=3;
 
