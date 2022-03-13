@@ -29,4 +29,5 @@ class CreatePost extends Component
     {
         return view('livewire.create-post');
     }
+   
 }

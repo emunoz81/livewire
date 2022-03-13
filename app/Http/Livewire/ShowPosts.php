@@ -33,4 +33,5 @@ class ShowPosts extends Component
     public function order($sort){
         $this->sort = $sort;
     }
+    
 }
