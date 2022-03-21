@@ -12,11 +12,15 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// ruta para el navegador http://miproyecto.local.com/
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
+Route::get('/uno', function () {
     return view('dashboard');
 })->name('dashboard');

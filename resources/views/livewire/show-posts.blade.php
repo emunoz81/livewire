@@ -6,7 +6,7 @@
     <!-- This example requires Tailwind CSS v2.0+ -->
     
     <x-table>
-    {{$search}}
+    
         <div class="px-6 py-4">
            <!-- <input type="text" wire:model="search"> -->
            
